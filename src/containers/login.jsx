@@ -31,14 +31,11 @@ export default function Login() {
         }}>
         <Grid
           item
-          xs={12}
+          xs={false}
           sm={4}
           md={6}
           sx={{
-            backgroundRepeat: 'no-repeat',
             backgroundColor: '#92aede',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
           }}
         >
             <Box sx={{
