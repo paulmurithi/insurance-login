@@ -129,17 +129,19 @@ export default function Login() {
                 sx={{ 
                     mt: 3, 
                     mb: 2, 
-                    borderRadius:'20px', 
-                    backgroundColor:'#ffffff', 
-                    color: '#92aede',
-                    border:'1px solid #92aede'
+                    borderRadius:'20px',
                 }}
               >
                 Login
               </Button>
               <Grid container>
                 <Grid item xs>
-                  <Link href="#" variant="body2" sx={{textDecoration:'none'}}>
+                  <Link href="#" 
+                  variant="body2" 
+                  sx={{
+                      textDecoration:'none',
+                      boxSizing:'none'
+                      }}>
                     Forgot password?
                   </Link>
                 </Grid>
