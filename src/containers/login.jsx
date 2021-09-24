@@ -86,13 +86,13 @@ export default function Login() {
               alignItems: 'center',
             }}
           >
-            <Typography component="h1" variant="h5">
+            <Typography component="h1" variant="h5" sx={{color:'#92aede'}}>
               Login
             </Typography>
             <Box component="div"
              sx={{
                  width:'10%',
-                 backgroundColor:'blue',
+                 backgroundColor:'#92aede',
                  height:'2px',
              }}
              >
@@ -130,6 +130,7 @@ export default function Login() {
                     mt: 3, 
                     mb: 2, 
                     borderRadius:'20px',
+                    backgroundColor:'#92aede'
                 }}
               >
                 Login
